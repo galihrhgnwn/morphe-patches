@@ -1,0 +1,4 @@
+<resources>
+    <string name="morphe_spotify_unlock_premium_title">Unlock Premium</string>
+    <string name="morphe_spotify_unlock_premium_summary">Unlocks Spotify Premium features (experimental)</string>
+</resources>
