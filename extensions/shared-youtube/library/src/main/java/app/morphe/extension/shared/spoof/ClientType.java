@@ -54,6 +54,26 @@ public enum ClientType {
             false,
             "Android Reel"
     ),
+    ANDROID_TESTSUITE(
+            30,
+            "ANDROID_TESTSUITE",
+            "com.google.android.youtube",
+            "Google",
+            "Pixel 8 Pro",
+            "Android",
+            "14",
+            "34",
+            "UP1A.231105.003",
+            "1.9",
+            null,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            "Android TestSuite"
+    ),
     /**
      * Video not playable: Paid, Movie, Private, Age-restricted.
      * This client can only be used when logged out.
