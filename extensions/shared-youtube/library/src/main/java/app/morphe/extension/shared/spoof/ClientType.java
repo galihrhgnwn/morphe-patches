@@ -55,6 +55,30 @@ public enum ClientType {
             "Android Reel"
     ),
     /**
+     * Video not playable: Paid, Movie, Private, Age-restricted.
+     * This client can only be used when logged out.
+     */
+    ANDROID_VR_1_61_48(
+            28,
+            "ANDROID_VR",
+            "com.google.android.apps.youtube.vr.oculus",
+            "Oculus",
+            "Quest 3",
+            "Android",
+            "12",
+            "32",
+            "SQ3A.220605.009.A1",
+            "1.61.48",
+            null,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            "Android VR"
+    ),
+    /**
      * Video not playable in YouTube: All videos (This client requires login, but cannot log in with YouTube's access token).
      * Video not playable in YouTube Music: None.
      * Uses non-adaptive bitrate.
@@ -139,18 +163,18 @@ public enum ClientType {
             "ANDROID_CREATOR",
             "com.google.android.apps.youtube.creator",
             "Google",
-            "Pixel 10 Pro XL",
+            "Pixel 9 Pro Fold",
             "Android",
-            "16",
-            "36",
-            "BD3A.251005.003.W3",
-            "26.10.000",
+            "15",
+            "35",
+            "AP3A.241005.015.A2",
+            "23.47.101",
             null,
             true,
             true,
             false,
             false,
-            false,
+            true,
             true,
             "Android Studio"
     ),
